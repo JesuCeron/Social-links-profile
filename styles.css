@@ -1,0 +1,257 @@
+body {
+
+    background-color:hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter';
+
+}
+
+.container{
+    
+    background-color: hsl(0, 0%, 12%);
+    width: 275px;
+    height: 457px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centrado vertical */
+    align-items: center; /* Centrado horizontal */
+    position: absolute ;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+img {
+
+    position: absolute;
+    top: 30px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+}
+
+#Name {
+
+    color:white;
+    font-size:15px;
+    margin-top: 45%;
+    margin-bottom: 6px;
+
+}
+
+#Location {
+
+    color:hsl(75, 94%, 57%);
+    font-size:10px;
+    margin-top: 0px;
+}
+
+#Career {
+
+    color:rgb(212, 212, 212);
+    font-size:10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-weight: normal;
+
+}
+
+
+.Buttons {
+
+    background-color:#3a3a3a;
+    color:white;
+    font-size:10px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    cursor:pointer;
+
+}
+
+.Buttons:hover {
+
+    background-color:hsl(75, 94%, 57%);;
+    color: black;
+
+}
+
+#G {
+
+    padding-left: 90px;
+    padding-right: 90px;
+
+}
+
+#F {
+
+    padding-left: 67px;
+    padding-right: 67px;
+
+}
+
+#L {
+
+    padding-left: 86px;
+    padding-right: 86px;
+
+
+}
+
+#T{
+
+    padding-left: 90px;
+    padding-right: 90px;
+
+}
+
+
+#I {
+
+    padding-left: 82px;
+    padding-right: 82px;
+
+
+}
+
+
+@media screen and (max-width:600px) 
+
+{
+
+    body {
+
+        background-color:hsl(0, 0%, 8%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Inter';
+    
+    }
+    
+    .container{
+        
+        background-color: hsl(0, 0%, 12%);
+        width: 320px;
+        height: 530px;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* Centrado vertical */
+        align-items: center; /* Centrado horizontal */
+        position: absolute ;
+        top: 50%;
+        transform: translateY(-50%);
+    
+    }
+    
+    img {
+    
+        position: absolute;
+        top: 40px;
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+    
+    }
+    
+    #Name {
+    
+        color:white;
+        font-size:24px;
+        margin-top: 50%;
+        margin-bottom: 6px;
+    
+    }
+    
+    #Location {
+    
+        color:hsl(75, 94%, 57%);
+        font-size:13px;
+        margin-top: 0px;
+    }
+    
+    #Career {
+    
+        color:rgb(212, 212, 212);
+        font-size:12px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        font-weight: normal;
+    
+    }
+    
+    
+    .Buttons {
+    
+        background-color:#3a3a3a;
+        color:white;
+        font-size:13px;
+        font-weight: bold;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border: none;
+        outline: none;
+        border-radius: 6px;
+        margin-bottom: 10px;
+        cursor:pointer;
+    
+    }
+    
+    .Buttons:hover {
+    
+        background-color:hsl(75, 94%, 57%);;
+        color: black;
+    
+    }
+    
+    #G {
+    
+        padding-left: 100px;
+        padding-right: 100px;
+    
+    }
+    
+    #F {
+    
+        padding-left: 70px;
+        padding-right: 70px;
+    
+    }
+    
+    #L {
+    
+        padding-left: 94px;
+        padding-right: 94px;
+    
+    
+    }
+    
+    #T{
+    
+        padding-left: 100px;
+        padding-right: 100px;
+    
+    }
+    
+    
+    #I {
+    
+        padding-left: 90px;
+        padding-right: 90px;
+    
+    
+    }
+    
+
+
+
+}
